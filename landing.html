@@ -1,0 +1,390 @@
+<!------------------------------------------------------------------------
+ 
+ 
+ 
+                        wip page 09
+                        by @bebewrites
+                        pls do not remove credit, 
+                        thanks!<3
+ 
+ 
+ 
+------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- browser tab title -->
+
+<title>a work in progress</title>
+ 
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- google font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+<!----- CSS ----->
+
+<style type="text/css">
+
+/* -- customizations: edit colors and add image urls in this section. scroll down to the html section to add your wip title and synopsis text. */
+ 
+:root {
+    --background-color:#f3ede8;
+    --right-side-background:#ffffff;
+    --text-color:#444444;
+    --light-accent:#f3ede8; /* drop cap background */
+    --accent:#d2b7a4; /* accent/link hover */
+    --headings:#222222;
+    --links:#999999;
+    --image-fade:grayscale(30%); /*adjust percentage */
+    
+    /*-----images-----*/
+    
+    /* row one */
+    --image-one:url('https://64.media.tumblr.com/fcb851bef9c47356eeeea853ba5da0d5/3496e6ad855ad02e-6d/s400x600/9c05b9de41bac9839f210bc22daecb8b8cf796c7.jpg');
+    --image-two:url(https://64.media.tumblr.com/8cbcd713be029162988bd5bbf08e2714/3496e6ad855ad02e-e6/s500x750/15bfe738f7085d9446947ab200a371e29f4c5a4d.jpg);
+    --image-three:url(https://64.media.tumblr.com/ede4b45969b9e496a257dfd122ab0ce5/3496e6ad855ad02e-73/s500x750/e0a47b9c35b9843f4b9118fac9062be265eebcf5.jpg);
+    
+    /*row two*/
+    --image-four:url(https://64.media.tumblr.com/ce324fef97b29919bc2ab618ceece839/3496e6ad855ad02e-02/s500x750/039c745d8f7bfe0091eb9261ef132ca22d93c063.jpg);
+    --image-five:url(https://64.media.tumblr.com/83106b67f553d7bf11ce817f11b924ca/3496e6ad855ad02e-1c/s500x750/e017fcf80334ba662bb850ffde5fdee77e1d3aa4.jpg);
+    --image-six:url(https://64.media.tumblr.com/62e79b8a4635ef3f579c449084dcf33f/3496e6ad855ad02e-e5/s500x750/96ccc464235a7d4c92896d9b5df19a13717e5d7e.jpg);
+    
+    /*row three*/
+    --image-seven:url(https://64.media.tumblr.com/c7bffd6b804ed637bba30c6cca44d9b9/3496e6ad855ad02e-f4/s500x750/0dee4a60750e3068180edad67443fd32b3077326.jpg);
+    --image-eight:url(https://64.media.tumblr.com/888d2f073c3581bbeba53fd607593cb8/3496e6ad855ad02e-bd/s500x750/18d2c9137cd337ca513ff454d4e32bdf77422c5f.jpg);
+    --image-nine:url(https://64.media.tumblr.com/cf36cbfc6d47bf3beb467c3a759a82f0/3496e6ad855ad02e-78/s500x750/c3d3ceab2c45b97ff8626fdb234ffa6cb1e51295.jpg);
+}
+/* ---------------------------------------------------------------------- */
+
+/* ---  fade in  --- */
+
+@-webkit-keyframes fadein {
+        0%   {opacity: 0;}
+        100% { opacity: 1; } }
+ 
+@-moz-keyframes fadein {
+        0%   { opacity: 0; }
+        100% { opacity: 1; } }
+ 
+@keyframes fadein {
+        0%   { opacity: 0; }
+        100% { opacity: 1; } }
+        
+
+/*----- BASIC STYLING -----*/
+
+body {
+    font-family:'Inter';
+    font-size:12px;
+    color:var(--text-color);
+    background-color:var(--background-color);
+    letter-spacing:var(--letter-spacing);
+    line-height: 170%;
+    text-align:justify;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+    -webkit-animation: fadein 1.5s;
+    -moz-animation:fadein 1.5s;
+    animation:fadein 1.5s;
+}
+
+a {
+    color:var(--links);
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color:var(--accent);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+blockquote {
+    padding: 0 0 0 1em;
+    margin: 1.5em 2.5em 1.5em 1.5em;
+    font-style:italic;
+}
+
+/*---- containers ----*/
+
+main {
+    display:block;
+    position:fixed;
+    width:1200px;
+    height:602px;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    background-color:var(--right-side-background);
+}
+
+#main-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#image-wrap {
+    display:block;
+    width:600px;
+    height:600px;
+}
+
+#image-grid {
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-gap:1px;
+}
+
+.img {
+    display:block;
+    height:200px;
+    width:200px;
+    filter:var(--image-fade);
+}
+
+.image-one {
+    background-image:var(--image-one);
+    background-size:cover;
+}
+
+.image-two {
+    background-image:var(--image-two);
+    background-size:cover;
+}
+
+.image-three {
+    background-image:var(--image-three);
+    background-size:cover;
+}
+
+.image-four {
+    background-image:var(--image-four);
+    background-size:cover;
+}
+
+.image-five {
+    background-image:var(--image-five);
+    background-size:cover;
+}
+
+.image-six {
+    background-image:var(--image-six);
+    background-size:cover;
+}
+
+.image-seven {
+    background-image:var(--image-seven);
+    background-size:cover;
+}
+
+.image-eight {
+    background-image:var(--image-eight);
+    background-size:cover;
+}
+
+.image-nine {
+    background-image:var(--image-nine);
+    background-size:cover;
+}
+
+#right-side {
+    display:block;
+    width:600px;
+    height:600px;
+    background-color:var(--right-side-background);
+}
+
+#text-wrap {
+    display:block;
+    width:600px;
+    height:538px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:20px 70px;
+    font-family:'Quicksand';
+    text-transform:uppercase;
+    font-weight:500;
+    font-size:10px;
+    letter-spacing:1.5px;
+    color:var(--links);
+}
+
+nav a {display:block;}
+
+.wip-title {
+    display:block;
+    font-family:'Cormorant', serif;
+    font-size:40px;
+    text-transform:uppercase;
+    font-weight:400;
+    letter-spacing:0px;
+    text-align:center;
+    padding:2rem 1rem 1rem 1rem;
+    margin:0;
+    color:var(--headings);
+}
+
+.subtitle {
+    display:block;
+    font-family:'Quicksand', sans-serif;
+    font-size:11px;
+    text-transform:uppercase;
+    font-weight:400;
+    letter-spacing:1.75px;
+    text-align:center;
+    padding:0;
+    color:var(--headings);
+}
+
+.line {
+    display:block;
+    height:50px;
+    width:1px;
+    background-color:var(--text-color);
+    margin:1rem auto 1rem auto;
+}
+
+/* synopsis */
+
+.synopsis {
+    display:block;
+    overflow:scroll;
+    width:460px;
+    height:325px;
+    margin:0 auto;
+    padding:0 1rem;
+}
+
+.synopsis:first-letter {
+    font-size:40px;
+    font-family:'Cormorant';
+    float:left;
+    vertical-align:top;
+    padding:16px 14px;
+    background-color:var(--light-accent);
+    margin:4px 6px 0 0;
+}
+
+iframe.tmblr-iframe {display:none;}
+
+
+/*--- responsive - don't edit ---*/
+
+@media only screen and (max-width: 1100px) {
+    
+    main {
+        width:70%;
+        position:relative;
+    }
+    
+    #main-wrap {
+        display:block;
+        margin-top:3rem;
+        padding-bottom:3rem;
+    }
+}
+
+/*--- for mobile devices ---*/
+
+@media only screen and (max-width: 720px) {
+    main, section {width: 80vw;}
+}
+
+</style>
+</head>
+<body>
+
+<main>
+<div id="main-wrap">
+
+<!-- image grid: leave this alone :) -->
+<div id="image-wrap">
+    <div id="image-grid">
+        <div class="img image-one"></div>
+        <div class="img image-two"></div>
+        <div class="img image-three"></div>
+        <div class="img image-four"></div>
+        <div class="img image-five"></div>
+        <div class="img image-six"></div>
+        <div class="img image-seven"></div>
+        <div class="img image-eight"></div>
+        <div class="img image-nine"></div>
+    </div>
+</div>
+    
+<div id="right-side">
+    
+    <!-- NAVIGATION LINKS -->    
+    <nav>
+        <a href="/">index</a>
+        <a href="/ask">contact</a>
+        <a href="/">wips</a> <!-- free link -->
+        <a href="/">tag</a> <!-- free link -->
+        <!-- theme credit - pls don't edit this one <3 -->
+        <a href="https://bebewrites.tumblr.com">theme</a>
+    </nav>
+        
+    <div id="text-wrap">
+        
+        <!-- WIP TITLE & SUBTITLE: keep the title to one line -->
+        <div class="wip-title">the last ember</div>
+        <div class="subtitle">a romantasy novel</div>
+        
+        <div class="line"></div>
+        
+<!-- add your synopsis here. add a <p> tag at the beginning of each paragraph -->
+<div class="synopsis">
+    <p>Lorem ipsum dolor sit amet. Nam inventore ducimus ut explicabo doloremque aut laudantium magni ut commodi ipsam. A iste repellat qui sapiente modi ad quisquam aliquam sit enim pariatur et nisi autem eos error minima. Ab adipisci facere est quisquam cupiditate eum blanditiis officia ea quis magnam.
+
+    <p>Et voluptates fugiat ut voluptatem quia qui quia quisquam hic voluptatem Quis non iusto officiis. Ut quibusdam atque sed enim tempora ab facilis unde qui itaque aperiam et sequi perspiciatis? Nam atque iure id atque tempora aut laboriosam internos ad omnis eveniet ea ullam labore et laudantium atque 33 soluta magni. Et asperiores quaerat eum iure illum ea quibusdam beatae.
+
+    <p>Sed velit quam hic cumque quam aut suscipit culpa? Et labore quod ea debitis mollitia est maxime eveniet. Ut aperiam temporibus id dicta minima qui ipsum quisquam non necessitatibus laborum et tenetur saepe qui sint voluptates.
+</div>
+    
+</div> <!--text wrap-->
+</div><!--right side-->
+
+</div><!--main wrap-->
+</main><!-- end main container -->
+
+</body>
+</html>
